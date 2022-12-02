@@ -86,6 +86,12 @@ button {
     border-radius: 10px;
     color: #000;
     text-align: justify;
+    outline: none;
+    transition: .3s;
+    border: none;
+  }
+   #text-area:focus{
+    border: 2px solid var(--colorUm);
   }
 
   button:hover {
