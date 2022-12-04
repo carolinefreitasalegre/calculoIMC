@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calcule seu IMC</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <img src="img/imagem.01.png" alt="imagem01">
+    <main >
+        <img id="img" src="img/imagem.01.png" alt="imagem01">
 
 
-        <div class="dados--calculadora">
+        <div class="dados--calculadora ">
             <h1>Clacule seu IMC</h1>
             <p>IMC é o índice de Massa Corporal</p>
 
-          
-            <input type="text" name="nome" id="nome" placeholder="Nome">
-            <input type="number" name="peso" id="peso" placeholder="Peso(kg)">
-            <input type="number" name="altura" id="altura" placeholder="Altura(cm)">        
+            <form action="form" class="dados-input">
+              <label for="nome"></label>
+              <input required type="text"  name="nome" id="nome" placeholder="Nome" > <br>
 
-            <button id="but" onclick="calcular()">Calcular</button>
+              <label for="nome"></label>
+              <input  required  type="number"  name="peso" id="peso" placeholder="Peso(kg)"><br>
 
-            <textarea id="text-area" name="textarea" cols="1" rows="5"></textarea>
+              <label for="nome"></label>
+              <input  required  type="number"  name="altura" id="altura" placeholder="Altura(cm)">   <br>     
+     
+              <button id="but" onclick="calcular()">Calcular</button><br>
 
-            <input id="but-refresh" type="button" value="Limpar" onClick="window.location.reload()">
+              <textarea id="text-area" name="textarea" cols="1" rows="5"></textarea><br>
+
+              <input id="but-refresh" type="button" value="Limpar" onClick="window.location.reload()"><br>
+            </form>
         </div>
     </main>
 
