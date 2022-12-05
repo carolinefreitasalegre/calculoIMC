@@ -4,7 +4,7 @@ function calcular() {
     const altura = document.getElementById('altura').value;
     const nome = document.getElementById('nome').value;
  
-    const imc = peso / (altura * altura)
+    const imc = (parseFloat(peso) / (parseFloat(altura) * parseFloat(altura)));
 
     const element = document.getElementById('text-area')
 
