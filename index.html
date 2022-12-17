@@ -16,22 +16,22 @@
             <h1>Clacule seu IMC</h1>
             <p>IMC é o índice de Massa Corporal</p>
 
-            <form action="form" class="dados-input">
-              <label for="nome"></label>
-              <input required type="text"  name="nome" id="nome" placeholder="Nome" > <br>
+            <div class="dados-input">
+              <!-- <label for="nome"></label> -->
+              <input required type="text"  id="nome" placeholder="Nome" > <br>
 
-              <label for="nome"></label>
-              <input  required  type="number"  name="peso" id="peso" placeholder="Peso(kg)"><br>
+              <!-- <label for="peso"></label> -->
+              <input  required  type="number" id="peso" placeholder="Peso(kg)"><br>
 
-              <label for="number"></label>
-              <input type="number"  name="altura" id="altura" placeholder="Altura(cm)">   <br>     
+              <!-- <label for="altura"></label> -->
+              <input type="number" id="altura" placeholder="Altura(cm)">   <br>     
      
               <button id="but" onclick="calcular()">Calcular</button><br>
 
               <textarea id="text-area" name="textarea" cols="1" rows="5"></textarea><br>
 
               <input id="but-refresh" type="button" value="Limpar" onClick="window.location.reload()"><br>
-            </form>
+            </div>
         </div>
     </main>
 

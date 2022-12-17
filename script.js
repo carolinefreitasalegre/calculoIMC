@@ -1,9 +1,10 @@
 function calcular() {
     var img = document.getElementById("img")
     const peso = document.getElementById('peso').value;
-    const altura = document.getElementById('altura').value;
+    const altura = document.getElementById('altura').value / 100;
     const nome = document.getElementById('nome').value;
- 
+    
+
     const imc = (parseFloat(peso) / (parseFloat(altura) * parseFloat(altura)));
 
     const element = document.getElementById('text-area')
