@@ -149,6 +149,9 @@ button:active {
 }
 
 @media (max-width:1078px) {
+  .dados--calculadora{
+    width: 90%;
+}
   h1{
       font-size: 1em;
       
@@ -159,8 +162,32 @@ button:active {
   img{
       width: 30%;
   }
-
-
+  main{
+    margin-left:-55%; 
+    margin-top: 15%;
+  }
+  button{
+    width:30%;
+    padding: 2.5%;
+    color: #2ECC71;
+    align-items: center;
+}
+  input{
+    padding: 3%;
+  }
+  #but-refresh{
+      width:30%;
+      color: #2ECC71;
+      padding: 3%;
+      text-align: center;
+  }
+  #text-area{
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    margin-right:3%;
+  }
 }
 
 
@@ -169,7 +196,33 @@ button:active {
       display: none;
   }
   .dados--calculadora{
-      width: 70%;
+      width: 90%;
+  }
+  main{
+    margin-left:-55%; 
+    margin-top: 15%;
+  }
+  button{
+    width:40%;
+    padding: 2.5%;
+    color: #2ECC71;
+    align-items: center;
+}
+  input{
+    padding: 3%;
+  }
+  #but-refresh{
+      width:40%;
+      color: #2ECC71;
+      padding: 3%;
+      text-align: center;
+  }
+  #text-area{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    margin-right:3%;
   }
 }
 
