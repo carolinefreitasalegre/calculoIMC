@@ -112,6 +112,9 @@ button {
   border-radius: 10px;
   color: #000;
   text-align: justify;
+  padding: 5px;
+  border: none;
+  outline: 2px solid greenyellow;
 }
 
 #but-refresh{
